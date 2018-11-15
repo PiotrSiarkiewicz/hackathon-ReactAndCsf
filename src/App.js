@@ -1,16 +1,14 @@
 import React, {Component} from 'react';
-<<<<<<< HEAD
 import CurrencyChart from './CurrencyChart'
 import "@nokia-csf-uxr/csfWidgets/csfWidgets.css"
 import ChartConfig from "./ChartConfig";
 import {Tabs, Tab } from  '@nokia-csf-uxr/csfWidgets'
 import './app.css'
-import './'
 import DataGridContainer from "./DataGridContainer";
 
 export default class App extends Component {
 
-	constructor(){
+	constructor() {
 		super();
 		this.state = {
 			currencies: ['usd'],
@@ -41,37 +39,26 @@ export default class App extends Component {
 
 	onSelectionChanged = (code, selected) => {
 		let temp = this.state.checkboxCurrencies;
-		if(selected){
+		if (selected) {
 
-			let finded = temp.find( stateCode =>{
+			let finded = temp.find(stateCode => {
 				return stateCode === code;
 			});
-			if(finded === undefined){
+			if (finded === undefined) {
 				temp.push(code)
 				this.setState({
 					checkboxCurrencies: temp
 				})
 			}
-		}else {
-			let checkboxCurrencies = temp.filter( stateCode => stateCode !== code );
-			if(checkboxCurrencies !== undefined){
+		} else {
+			let checkboxCurrencies = temp.filter(stateCode => stateCode !== code);
+			if (checkboxCurrencies !== undefined) {
 				this.setState({checkboxCurrencies})
-			}else {
+			} else {
 				this.setState({
 					checkboxCurrencies: []
 				})
 			}
 		}
 	}
-=======
-
-export default class App extends Component {
-    render() {
-        return (
-            <div className={"App"}>
-                Hello, world!
-            </div>
-        );
-    }
->>>>>>> parent of a85dcb3... initial data grid component
 }
