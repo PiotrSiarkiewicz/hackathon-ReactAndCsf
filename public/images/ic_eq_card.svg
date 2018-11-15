@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<style type="text/css">
+	.st0{fill:#000000;}
+</style>
+<g>
+	<path class="st0" d="M21.018904,9.985668v-2h-1v-2l-2.775391-2H5.018905v-2h-2v20h2v-2h12.259765l2.740234-1.9375v-2.0625h1v-2h-1
+		v-1h1v-2h-1v-1H21.018904z M18.018904,7.985668v2v1v2v1v2v1.09375l-1.207031,0.90625H6.018905v-12h10.745116l1.254883,1V7.985668z"
+		/>
+	<rect x="14.022933" y="14.052929" class="st0" width="2" height="2"/>
+	<rect x="14.018905" y="10.954418" class="st0" width="2" height="2"/>
+	<rect x="10.991683" y="14.052929" class="st0" width="2" height="2"/>
+	<rect x="10.987655" y="10.954418" class="st0" width="2" height="2"/>
+</g>
+</svg>
